@@ -25,11 +25,25 @@ header{
     background-color: #25527B;
 }
 
-header h1{
+aside{
+    padding:20px;
+    text-align: left;
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
 }
 
-aside{
-    grid-area: aside;
+aside h3{
+    padding-bottom:10px;
+}
+
+.categoria{
+    padding-bottom:3px;
+    display: flex;
+}
+
+.cantidad{
+    color: rgb(171, 169, 169);
 }
 
 main{
