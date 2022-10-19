@@ -8,7 +8,7 @@ body{
     display: grid;
     background-color: #E7E7E7;
     grid-template-columns: 1fr 3fr;
-    grid-template-rows: 50px 1fr 40px;
+    grid-template-rows: 50px 1fr 50px;
     height: 100vh;
     grid-template-areas: 
                     'header header'
@@ -86,5 +86,8 @@ main{
 
 footer{
     grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: white;
 }
